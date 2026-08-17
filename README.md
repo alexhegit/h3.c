@@ -1,5 +1,11 @@
 # h3-metal
 
+> **NVIDIA DGX Spark / CUDA development has moved to
+> [alexhegit/h3-spark.c](https://github.com/alexhegit/h3-spark.c).**  
+> This repository remains the upstream **Apple Metal** inference tree. The
+> `spark` branch here is archived for history; new Spark issues and PRs belong
+> on **h3-spark.c**.
+
 Native MiniMax-H3 inference for Apple Silicon. The project is being built as a
 sequence of working vertical slices: deterministic host/model metadata first,
 then portable Metal block parity, prompt encoding, prompt-to-video/audio, and
